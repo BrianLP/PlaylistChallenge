@@ -13,7 +13,6 @@ public class Music {
         int trackMovesDown = 0;
         int trackMovesUp = 0;
         for (int i = startIndex; i <= playList.length-1; i++){
-            System.out.println(playList[i]);
             if (playList[i].equals(selection)) {
                 break;
             }
@@ -25,7 +24,7 @@ public class Music {
 
         }
         for (int i = startIndex; i >= 0; i--){
-            System.out.println(playList[i]);
+            
             if (playList[i].equals(selection)) {
                 break;
             }
